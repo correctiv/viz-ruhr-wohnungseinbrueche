@@ -1,6 +1,6 @@
 # viz-ruhr-wohnungseinbrueche
 
-[preview](https://correctiv.github.io/viz-ruhr-wohungseinbrueche/dist/)
+[preview](https://correctiv.github.io/viz-ruhr-wohnungseinbrueche/dist/)
 
 build stack based on [this fork](https://github.com/simonwoerpel/yet-another-webpack-es6-riot-starterkit) of [this great startkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit)
 
