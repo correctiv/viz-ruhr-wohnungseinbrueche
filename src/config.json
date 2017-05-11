@@ -1,0 +1,23 @@
+{
+  "geoFile": "nrw_landkreise_simplify200.topo.json",
+  "topoLayerName": "nrw_landkreise_simplify200",
+  "colors": {
+    "11": "#e8e6f2",
+    "12": "#b5d3e7",
+    "13": "#4fadd0",
+    "21": "#e5b4d9",
+    "22": "#b8b3d8",
+    "23": "#3983bb",
+    "31": "#de4fa6",
+    "32": "#b03598",
+    "33": "#2a1a8a"
+  },
+  "map": {
+    "width": 700,
+    "height": 690
+  },
+  "cities": {
+    "height": 100,
+    "width": 100
+  }
+}

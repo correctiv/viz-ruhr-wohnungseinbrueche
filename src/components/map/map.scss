@@ -1,0 +1,19 @@
+.cor-viz-wed__map {
+
+  &-container {
+    @include bp-sm {
+      margin-top: 200px;
+    }
+  }
+
+  &-path {
+    stroke: $map-stroke;
+    stroke-width: $map-stroke-width;
+
+    &.-hilight {
+      stroke: $map-stroke-hilight;
+      stroke-width: $map-stroke-hilight-width;
+    }
+  }
+
+}

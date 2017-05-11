@@ -1,0 +1,45 @@
+.cor-viz-wed__infobox {
+
+  border: 1px solid black;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, .9);
+
+  @media (max-width: $screen-sm - 1) {  // FIXME mobile first??
+    display: block;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+
+  &__close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    @include hide-bigger;
+  }
+
+  &__map-symbol {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  dt {
+    padding-top: .7em;
+    font-size: 20px;
+    line-height: 1em;
+    font-family: $font-neuzeit;
+    font-weight: bold;
+  }
+
+  dd {
+    font-weight: normal;
+    line-height: 1em;
+  }
+
+}

@@ -1,0 +1,46 @@
+.cor-viz-wed {
+
+  &__map-wrapper {
+    display: block;
+    width: 100%;
+
+    @include bp-sm {
+      width: 50%;
+      float: left;
+    }
+
+    @include bp-lg {
+      width: 40%;
+    }
+  }
+
+  &__cities-container {
+    display: block;
+    width: 100%;
+
+    @include bp-sm {
+      width: 50%;
+      float: left;
+    }
+
+    @include bp-lg {
+      width: 60%;
+    }
+  }
+
+  &__infobox {
+    display: block;
+
+    @include bp-sm {
+      width: 50%;
+      position: absolute;
+      top: 20px;
+      right: 0;
+    }
+
+    @include bp-lg {
+      width: 40%;
+    }
+  }
+
+}
