@@ -4,6 +4,44 @@
 
 build stack based on [this fork](https://github.com/simonwoerpel/yet-another-webpack-es6-riot-starterkit) of [this great startkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit)
 
+
+
+[See published story at correctiv.org (in german)](https://correctiv.org/blog/ruhr/artikel/2017/05/03/hauptschulen-jeder-dritte-achtklaessler-im-ruhrgebiet-nicht-fuer-arbeitsmarkt-geeignet/)
+
+[See preview of this viz via gh-pages](https://correctiv.github.io/viz-ruhr-lernstandserhebungen/dist/)
+
+## visualization setup for correctiv cms-plugin
+
+### javascript
+
+```
+dist/bundle.js
+```
+
+### styles
+
+```
+dist/styles/bundle.css
+```
+
+### html
+
+```html
+<figure class="figure -full-width">
+  <div class="figure__container">
+    <section class="cor-viz-wed__section">
+      <div data-riot-mount="cor-viz-wed__app"></div>
+    </section>
+  </div>
+  <div class="figure__credits">
+    <p><strong>Daten:</strong>
+      <a href="http://www.polizei.nrw.de/artikel__15554.html">Polizeiliche Kriminalstatistik 2016,</a> LKA Nordrhein-Westfalen.</p>
+    <p>Es handelt sich um erfasste Fallzahlen, d.h. bei der Polizei gemeldete Einbruchsfälle. Die tatsächlichen Zahlen können darüberliegen.</p>
+  </div>
+</figure>
+```
+
+
 ### Installation
 
 ```
