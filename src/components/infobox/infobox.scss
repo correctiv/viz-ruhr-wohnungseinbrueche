@@ -2,7 +2,7 @@
 
   border: 1px solid black;
   padding: 20px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, .95);
 
   @media (max-width: $screen-sm - 1) {  // FIXME mobile first??
     display: block;
@@ -66,7 +66,8 @@
 
     @include bp-sm {
       font-size: 12px;
-      clear: both;
+      position: absolute;
+      bottom: 20px;
     }
   }
 

@@ -9,8 +9,11 @@ export default ({
 }) => {
   const data = topojson.feature(geoSource, geoSource.objects[topoLayerName])
   data.features.map(f => {
+    const n = f.properties.GEN
+    const ix = x => n.indexOf(x) > -1
     f.data = wedData[f.properties.AGS]
-    f.data.name = f.properties.GEN
+    f.data.name = n
+    f.data.name_short = ix('Ruhr') ? 'Mülheim' : ix('glad') ? 'M. Gladbach' : n
     f.data.bez = f.properties.BEZ
     f.color = colors[f.data.c]
     f.data.id = f.properties.AGS

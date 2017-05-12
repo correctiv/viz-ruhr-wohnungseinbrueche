@@ -5,7 +5,7 @@
     width: 100%;
 
     @include bp-sm {
-      width: 50%;
+      width: 45%;
       float: left;
     }
 
@@ -19,7 +19,7 @@
     width: 100%;
 
     @include bp-sm {
-      width: 50%;
+      width: 55%;
       float: left;
     }
 
@@ -32,10 +32,11 @@
     display: block;
 
     @include bp-sm {
-      width: 50%;
+      width: 45%;
       position: absolute;
       top: 20px;
       right: 0;
+      min-height: 240px;
     }
 
     @include bp-lg {
