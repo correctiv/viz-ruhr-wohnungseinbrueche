@@ -24,6 +24,11 @@
     &--active {
       background-color: $gray-lighter;
       // border: 1px solid $gray;
+
+      path {
+        stroke: $map-stroke-hilight;
+        stroke-width: $map-stroke-hilight-width;
+      }
     }
   }
 

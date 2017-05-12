@@ -15,7 +15,7 @@ export default ({
     f.data.name = n
     f.data.name_short = ix('Ruhr') ? 'Mülheim' : ix('glad') ? 'M. Gladbach' : n
     f.data.bez = f.properties.BEZ
-    f.color = colors[f.data.c]
+    f.color = colors[+f.data.c]
     f.data.id = f.properties.AGS
   })
   return data
