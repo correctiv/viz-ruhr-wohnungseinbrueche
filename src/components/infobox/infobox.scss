@@ -29,6 +29,16 @@
     right: 10px;
   }
 
+  dl {
+    display: block;
+    margin-bottom: 0;
+
+    @include bp-xs {
+      width: 50%;
+      float: left;
+    }
+  }
+
   dt {
     padding-top: .7em;
     font-size: 20px;
@@ -52,10 +62,17 @@
     font-style: italic;
     font-size: 14px;
     margin-right: 60px;
+    margin-top: 20px;
 
     @include bp-sm {
       font-size: 12px;
+      clear: both;
     }
+  }
+
+  &__hint {
+    font-size: 15px;
+    @include hide-small;
   }
 
 }
