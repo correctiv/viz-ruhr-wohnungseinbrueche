@@ -7,9 +7,15 @@ import renderSymbol from '../cities/render_city.js'
     <dl>
       <dt>{ feature.data.name }</dt>
       <dd>{ feature.data.bez }</dd>
-      <dt>{ feature.data.value }</dt>
-      <dd>Wert</dd>
-    </dt>
+      <dt>{ feature.data.c16 }</dt>
+      <dd>erfasste Fälle</dd>
+      <dt>{ feature.data.ca16 }</dt>
+      <dd>aufgeklärte* Fälle</dd>
+      <dt>{ feature.data.q16 } %</dt>
+      <dd>Aufklärungsquote*</dd>
+    </dl>
+    <span class="cor-viz-wed__infobox__annotation">* Aufgeklärt heißt, es wurden Tatverdächtige ermittelt.</span>
+    <span class="cor-viz-wed__infobox__annotation">Daten von 2016.</span>
     <button class="btn cor-viz-wed__infobox__close-btn"
       onclick={ close }>x</button>
     <div data-d3="map-symbol" class="cor-viz-wed__infobox__map-symbol"></div>

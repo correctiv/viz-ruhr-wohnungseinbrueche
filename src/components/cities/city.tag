@@ -9,7 +9,7 @@ import renderCity from './render_city.js'
   <div data-d3="city-{ data.id }"
     class="cor-viz-wed__city-map__container"></div>
   <h4 class="cor-viz-wed__city__name">{ data.name }</h4>
-  <span class="cor-viz-wed__city__inline-data -non-small">Wert: <strong>{ data.value }</strong></span>
+  <span class="cor-viz-wed__city__inline-data">Fälle: <strong>{ data.c16 }</strong></span>
   <button class="btn cor-viz-wed__city__collapse-btn
     { cor-viz-wed__city__collapse-btn--active: opts.active}"
     disabled={ opts.active }
