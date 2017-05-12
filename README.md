@@ -1,14 +1,10 @@
 # viz-ruhr-wohnungseinbrueche
 
-[preview](https://correctiv.github.io/viz-ruhr-wohnungseinbrueche/dist/)
+[See published story at correctiv.org (in german)](https://correctiv.org/blog/ruhr/artikel/2017/05/12/mit-einbrechern-auf-stimmenfang/)
+
+[See preview of this viz via gh-pages](https://correctiv.github.io/viz-ruhr-wohnungseinbrueche/dist/index.html)
 
 build stack based on [this fork](https://github.com/simonwoerpel/yet-another-webpack-es6-riot-starterkit) of [this great startkit](https://github.com/wbkd/yet-another-webpack-es6-starterkit)
-
-
-
-[See published story at correctiv.org (in german)](https://correctiv.org/blog/ruhr/artikel/2017/05/03/hauptschulen-jeder-dritte-achtklaessler-im-ruhrgebiet-nicht-fuer-arbeitsmarkt-geeignet/)
-
-[See preview of this viz via gh-pages](https://correctiv.github.io/viz-ruhr-lernstandserhebungen/dist/)
 
 ## visualization setup for correctiv cms-plugin
 
@@ -29,6 +25,7 @@ dist/styles/bundle.css
 ```html
 <figure class="figure -full-width">
   <div class="figure__container">
+    <h2>Erfasste Einbruchsfälle und Aufklärungsquoten in Nordrhein-Westfalen</h2>
     <section class="cor-viz-wed__section">
       <div data-riot-mount="cor-viz-wed__app"></div>
     </section>
