@@ -16,7 +16,7 @@ import './setup_responsiveness.js'
 // load & mount app
 import loadData from './load_data.js'
 const config = require('json!../config.json')
-const data = loadData(config)
+const data = loadData(config.map)
 
 import '../components/app.tag'
 riot.mount('[data-riot-mount="cor-viz-wed__app"]', 'wed-app', {config, data})

@@ -1,8 +1,9 @@
 {
-  "geoFile": "nrw_landkreise_simplify200.topo.json",
-  "topoLayerName": "nrw_landkreise_simplify200",
-  "colors": ["#f9c280", "#dfad71", "#c59962", "#ab8454", "#917045", "#775b36", "#5e4728"],
   "map": {
+    "geoFile": "nrw_landkreise_simplify200.topo.json",
+    "topoLayerName": "nrw_landkreise_simplify200",
+    "colors": ["#f9c280", "#dfad71", "#c59962", "#ab8454", "#917045", "#775b36", "#5e4728"],
+    "steps": [179, 230, 281, 332, 383, 434, 485],
     "width": 700,
     "height": 690
   },
